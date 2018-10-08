@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/speak"
+        android:enabled="true"
+        android:icon="@drawable/ic_speech_icon"
+        android:title="speak"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/leavet"
+        android:enabled="true"
+        android:icon="@drawable/ic_exit"
+        android:title="leave trip"
+        app:showAsAction="ifRoom"/>
+</menu>

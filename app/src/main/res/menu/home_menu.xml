@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="profile" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/common_google_signin_btn_text_light_normal"
+        android:title="Invite Friends" />
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/com_facebook_button_icon"
+        android:title="View Trip History" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+
+            android:icon="?android:attr/homeAsUpIndicator"
+            android:title="logout" />
+    </group>
+</menu>

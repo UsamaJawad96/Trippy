@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single"
+        android:id="@+id/abcdefg">
+        <item
+            android:id="@+id/homeitem"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/view_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/deffssa">
+        <item
+            android:id="@+id/addbud"
+            android:icon="@drawable/ic_add"
+            android:title="Add Buddy" />
+        <item
+            android:id="@+id/triphistory"
+            android:icon="@drawable/ic_history"
+            android:title="Trip History" />
+        <item
+            android:id="@+id/invite_friends"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Invite Friends" />
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/dseffsssa">
+        <item
+            android:id="@+id/sensor"
+            android:title="Sensor Check"
+            android:icon="@drawable/ic_phn"/>
+        <item
+            android:id="@+id/logout_button"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:title="Logout" />
+    </group>
+</menu>
